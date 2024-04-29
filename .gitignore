@@ -1,0 +1,32 @@
+# Log files
+*.log
+
+# Node modules
+node_modules/
+
+package-lock.json
+# Ignoring image files referenced in HTML code
+assets/*.png
+
+# Ignoring files with class-based font-awesome icons in HTML
+*.fa-brands
+
+# Compiled files
+*.class
+*.o
+*.so
+*.dll
+
+# Additional files and folders
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore SASS cache
+.sass-cache
+
+
+# Ignore system files that might appear on external disks
+.Spotlight-V100
+.Trashes
+images
